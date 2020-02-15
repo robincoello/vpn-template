@@ -4,9 +4,6 @@ include "header.php";
 
 
 
-<?php
-include "menu_admin.php";
-?>
 
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
@@ -14,7 +11,18 @@ include "menu_admin.php";
     
 </div>
 
-
+<?php 
+$menu = '<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="user_edit.php">Edit</a>
+    <a class="dropdown-item" href="#">Block</a>
+    <a class="dropdown-item" href="#">Make</a>
+  </div>
+</div>'; 
+?>
 
 
 <table class="table">
@@ -23,7 +31,7 @@ include "menu_admin.php";
       <th scope="col">ID</th>
       <th scope="col">Name</th>
       <th scope="col">Lastname</th>
-      <th scope="col">servers</th>
+      <th scope="col">Login</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
@@ -33,18 +41,21 @@ include "menu_admin.php";
       <td>Mark</td>
       <td>Otto</td>
       <td>@mdo</td>
+      <td><?php echo $menu; ?></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>@fat</td>
+      <td><?php echo $menu; ?></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
       <td>@twitter</td>
+      <td><?php echo $menu; ?></td>
     </tr>
   </tbody>
 </table>
