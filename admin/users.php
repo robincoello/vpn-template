@@ -20,11 +20,11 @@ include "menu_admin.php";
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">Date</th>
-      <th scope="col">Server</th>
-      <th scope="col">Price</th>
-      <th scope="col">PDF</th>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Lastname</th>
+      <th scope="col">servers</th>
+      <th scope="col">Action</th>
     </tr>
   </thead>
   <tbody>
