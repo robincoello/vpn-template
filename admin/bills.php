@@ -13,40 +13,24 @@ include "header.php";
 
 <table class="table">
   <thead>
-    <tr>
-      <th scope="col">#</th>
+    <tr>      
       <th scope="col">ID</th>
       <th scope="col">Date</th>
+      <th scope="col">Client</th>
       <th scope="col">Server</th>
       <th scope="col">Price</th>
       <th scope="col">PDF</th>
     </tr>
   </thead>
   <tbody>
-<?php 
-
-foreach (array(
-    ""=>"", 
-    "id"=>"1", 
-    "date"=>"2020-02-20", 
-    "server"=>"espana", 
-    "price"=>"12", 
-    "pdf"=>"pdf", 
-    
-    ) as $key => $value) {
-    echo '    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>'; 
-}
-?>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <td>2020-01-01</td>
+      <td>Marie, JACOBS</td>
+      <td>Spain</td>
+      <td>20.00 EUR</td>
+      <td>Pay</td>
+      <td><a href="bills_details.php">see</a></td>
     </tr>
     <tr>
       <th scope="row">3</th>
