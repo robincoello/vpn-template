@@ -18,7 +18,7 @@
                     <div class="col-6 col-md">
                         <h5>Resources</h5>
                         <ul class="list-unstyled text-small">
-                            <li><a class="text-muted" href="#">Resource</a></li>
+                            <li><a class="text-muted" href="https://mega.nz/#F!ZUtXWCaC!4TkoFAaSB-y-oW-3jIutsw">Mega</a></li>
                             <li><a class="text-muted" href="#">Resource name</a></li>
                             <li><a class="text-muted" href="#">Another resource</a></li>
                             <li><a class="text-muted" href="#">Final resource</a></li>
@@ -31,6 +31,7 @@
                             <li><a class="text-muted" href="#">Locations</a></li>
                             <li><a class="text-muted" href="#">Privacy</a></li>
                             <li><a class="text-muted" href="#">Terms</a></li>
+                            <li><a class="text-muted" href="admin/">ADMIN</a></li>
                         </ul>
                     </div>
                 </div>

@@ -18,7 +18,8 @@
         </nav>
         
         
-        <a class="btn btn-outline-primary" href="login.php">My Account</a>
+        <a class="btn btn-outline-primary" href="login.php">My Account</a> 
+        
     </div>
     
     

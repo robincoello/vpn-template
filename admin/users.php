@@ -3,13 +3,14 @@ include "header.php";
 ?>
 
 
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Users</a>
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
 
-
-
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4">Users</h1>
-
-</div>
 
 <?php
 $menu = '<div class="dropdown">
@@ -60,6 +61,16 @@ $menu = '<div class="dropdown">
     </tbody>
 </table>
 
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
 
 <?php
 include "footer.php";

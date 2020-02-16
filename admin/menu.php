@@ -12,6 +12,6 @@
     </nav>
 
 
-    <a class="btn btn-outline-primary" href="login.php">ADMIN</a>
+    <a class="btn btn-outline-primary" href="../">Logout</a>
 </div>
 
