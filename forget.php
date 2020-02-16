@@ -32,9 +32,11 @@ include "header.php";
         </form>
 
         
+
+        <a href="login.php">login</a> | 
+        Forget password | 
         <a href="new_account.php">New account</a> 
-        <a href="forget.php">Forget password</a> 
-        <a href="login.php">login</a>
+        
 
     </div>
 </div>
