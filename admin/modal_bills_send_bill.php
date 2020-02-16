@@ -26,7 +26,7 @@
                     
                     
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
+                        <label for="exampleInputPassword1">Message</label>
                         <textarea class="form-control">Hi, here you are the bill
                             
                         </textarea>
