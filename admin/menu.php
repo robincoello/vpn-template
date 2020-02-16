@@ -7,6 +7,7 @@
         <a class="p-2 text-dark" href="stats.php">Stats</a>
         <a class="p-2 text-dark" href="users.php">Users</a>
         <a class="p-2 text-dark" href="bills.php">Bills</a>
+        <a class="p-2 text-dark" href="servers.php">Servers</a>
 
 
 

@@ -20,7 +20,7 @@ include "header.php";
       <th scope="col">ID</th>
       <th scope="col">Date</th>
       <th scope="col">Client</th>
-      <th scope="col">Server</th>
+      
       <th scope="col">Price</th>
       <th scope="col">Status</th>
       <th scope="col">Action</th>
@@ -33,7 +33,7 @@ include "header.php";
       <th scope="row">2</th>
       <td>2020-01-01</td>
       <td>Marie, JACOBS</td>
-      <td>Spain</td>
+      
       <td>20.00 EUR</td>
       <td>Pay</td>
       <td><a href="bills_details.php">see</a></td>
@@ -45,7 +45,19 @@ include "header.php";
       <th scope="row">2</th>
       <td>2020-01-01</td>
       <td>Marie, JACOBS</td>
-      <td>Spain</td>
+      
+      <td>20.00 EUR</td>
+      <td>Registred</td>
+      <td><a href="bills_details.php">see</a></td>
+    </tr>
+    
+      
+      
+    <tr>
+      <th scope="row">2</th>
+      <td>2020-01-01</td>
+      <td>Marie, JACOBS</td>
+      
       <td>20.00 EUR</td>
       <td>Pay</td>
       <td><a href="bills_details.php">see</a></td>
@@ -57,9 +69,9 @@ include "header.php";
       <th scope="row">2</th>
       <td>2020-01-01</td>
       <td>Marie, JACOBS</td>
-      <td>Spain</td>
+      
       <td>20.00 EUR</td>
-      <td>Pay</td>
+      <td>Unpay</td>
       <td><a href="bills_details.php">see</a></td>
     </tr>
     
@@ -69,19 +81,7 @@ include "header.php";
       <th scope="row">2</th>
       <td>2020-01-01</td>
       <td>Marie, JACOBS</td>
-      <td>Spain</td>
-      <td>20.00 EUR</td>
-      <td>Pay</td>
-      <td><a href="bills_details.php">see</a></td>
-    </tr>
-    
       
-      
-    <tr>
-      <th scope="row">2</th>
-      <td>2020-01-01</td>
-      <td>Marie, JACOBS</td>
-      <td>Spain</td>
       <td>20.00 EUR</td>
       <td>Pay</td>
       <td><a href="bills_details.php">see</a></td>
