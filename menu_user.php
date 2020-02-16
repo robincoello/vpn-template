@@ -10,6 +10,6 @@
     </nav>
 
 
-    <a class="btn btn-outline-primary" href="my_account.php">Logout</a>
+    <a class="btn btn-outline-primary" href="index.php">Logout</a>
 </div>
 
