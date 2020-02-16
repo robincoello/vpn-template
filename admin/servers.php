@@ -39,7 +39,19 @@ include "header.php";
   </div>
 </nav>
 
-
+<?php 
+$menu = '<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    On line
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="servers_d.php">See</a>
+    <a class="dropdown-item" href="servers_e.php">Edit</a>
+    <a class="dropdown-item" href="#">Block</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>'; 
+?>
 
 
 <table class="table">
@@ -63,7 +75,7 @@ include "header.php";
       <td>123.569.652</td>
       <td>Spain</td>      
       <td>2500</td>            
-      <td>Actived</td>            
+      <td><?php echo $menu; ?></td>            
     </tr>
     
     
@@ -74,7 +86,7 @@ include "header.php";
       <td>123.569.652</td>
       <td>Spain</td>      
       <td>2500</td>     
-      <td>Actived</td>            
+      <td><?php echo $menu; ?></td>           
     </tr>
     
     
@@ -85,7 +97,7 @@ include "header.php";
       <td>123.569.652</td>
       <td>Spain</td>      
       <td>2500</td> 
-      <td>bloqued</td>            
+      <td><?php echo $menu; ?></td>           
     </tr>
     
     
@@ -96,7 +108,7 @@ include "header.php";
       <td>123.569.652</td>
       <td>Spain</td>      
       <td>2500</td>            
-      <td>bloqued</td> 
+      <td><?php echo $menu; ?></td> 
     </tr>
     
     
@@ -107,7 +119,7 @@ include "header.php";
       <td>123.569.652</td>
       <td>Spain</td>      
       <td>2500</td>    
-      <td>bloqued</td> 
+      <td><?php echo $menu; ?></td> 
     </tr>
     
     

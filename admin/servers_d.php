@@ -3,97 +3,53 @@ include "header.php";
 ?>
 
 
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand">Servers</a>
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
-</nav>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4">Server details</h1>
+    <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+</div>
 
 
 
-
-<table class="table">
-  <thead>
-    <tr>      
-      <th scope="col">ID</th>
-      <th scope="col">Name</th>
-      <th scope="col">IP</th>      
-      <th scope="col">Ubication</th>            
-      <th scope="col">Max users</th>            
-    </tr>
-  </thead>
-  <tbody>
-      
-  
-     
-    <tr>
-      <th scope="row">1</th>
-      <td>VPN-es</td>
-      <td>123.569.652</td>
-      <td>Spain</td>      
-      <td>2500</td>            
-    </tr>
+<form action="servers_e.php">
+    
+    <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="te" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" disabled="">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
     
     
-     
-    <tr>
-      <th scope="row">1</th>
-      <td>VPN-es</td>
-      <td>123.569.652</td>
-      <td>Spain</td>      
-      <td>2500</td>            
-    </tr>
+    <div class="form-group">
+        <label for="exampleInputEmail1">IP</label>
+        <input type="te" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" disabled="">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
     
     
-     
-    <tr>
-      <th scope="row">1</th>
-      <td>VPN-es</td>
-      <td>123.569.652</td>
-      <td>Spain</td>      
-      <td>2500</td>            
-    </tr>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Ubication</label>
+        <input type="te" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" disabled="">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
     
     
-     
-    <tr>
-      <th scope="row">1</th>
-      <td>VPN-es</td>
-      <td>123.569.652</td>
-      <td>Spain</td>      
-      <td>2500</td>            
-    </tr>
-    
-    
-     
-    <tr>
-      <th scope="row">1</th>
-      <td>VPN-es</td>
-      <td>123.569.652</td>
-      <td>Spain</td>      
-      <td>2500</td>            
-    </tr>
-    
-    
-
+    <div class="form-group">
+        <label for="exampleInputEmail1">Max users</label>
+        <input type="te" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" disabled="">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
     
     
     
-  </tbody>
-</table>
+    
+    
+    <button type="submit" class="btn btn-primary">Edit</button>
+    
+    
+</form>
 
 
-<nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-  </ul>
-</nav>
 
 
 <?php
